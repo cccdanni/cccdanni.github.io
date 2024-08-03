@@ -140,6 +140,13 @@ header.nav__gat {
   padding: 10px 50px;
 }
 
+.Pub-Description{
+  color: 64a19d;
+  font-size: 20px;
+  text-align: left;
+  padding: 0px 50px;
+}
+
 .show {
   display: block;
 }
@@ -168,6 +175,45 @@ header.nav__gat {
   background-color: #666;
   color: white;
 }
+
+.btn-pub {
+		border:#64a19d;
+		color:white;
+		outline: none;
+		padding: 0px 5px;
+		background-color: #64a19d;
+		cursor: pointer;
+		text-align: right;
+		float: right;
+		margin: 0px;
+		font-size: 18px;
+	}
+
+    .btn-pub-pre {
+		border:#64a19d;
+		color:white;
+		outline: none;
+		padding: 0px 5px;
+		background-color: #64a19d;
+		cursor: pointer;
+		text-align: right;
+		float: right;
+		margin: 0px;
+		font-size: 18px;
+	}
+
+    .btn-pub-open {
+		border:#64a19d;
+		color:white;
+		outline: none;
+		padding: 0px 5px;
+		background-color: #64a19d;
+		cursor: pointer;
+		text-align: right;
+		float: right;
+		margin: 0px;
+		font-size: 18px;
+	}
 
 
 /*btn on top*/
@@ -252,7 +298,7 @@ header.nav__gat {
 
 <br>
     
-<div class="container" style="z-index: 10;max-width: 1200px; position: relative; top:0px">
+<div class="container" style="z-index: 10;max-width: 1800px; position: relative; top:0px">
 
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
@@ -293,13 +339,6 @@ header.nav__gat {
                     
 
                     <!--Examplar Publication, Each one row-->
-                    <div class="row filterDiv sleep social decisionmaking hku" >
-                        <div class="col-md-1"></div>
-                        <div class="col-md-11"><p class="Pub">[4] <b>Chen, D.</b>, Xia, T., Yao, Z., Zhang, L., Hu, X.*, 
-                            Modulating social learning-induced evaluation updating during human sleep. 
-                            bioRxiv 2023.12.11.571114; doi: https://doi.org/10.1101/2023.12.11.571114.</p></div>
-                        <div class="col-md-1"></div>
-                    </div>
 
                     <div class="row filterDiv sleep memory hku" >
                         <div class="col-md-1"></div>
@@ -337,12 +376,42 @@ header.nav__gat {
 
                     <h4 style="text-align: left;">&nbsp&nbspPeer-reviewed Journal Articles</h4><br>
 
-                    <div class="row filterDiv memory hku" >
-                        <div class="col-md-1"></div>
-                        <div class="col-md-11"><p class="Pub"> [8] Lin, X., <b>Chen, D.</b>, Liu, J., Yao, Z., Xie, H., Anderson, M.C.*, Hu, X.*, (Accepted) Observing the suppression of individual aversive memories from conscious awareness. Cerebral Cortex. 
-                        </p></div>
-                        <div class="col-md-1"></div>
+                    <div class="row filterDiv sleep social decisionmaking hku" >
+                        <div class="row">
+                        <div class="col-md-10">
+                            <p class="Pub">
+                                [9] <b>Chen, D.</b>, Xia, T., Yao, Z., Zhang, L., Hu, X.*, 
+                                    Modulating social learning-induced evaluation updating during human sleep. (Accepted) 
+                                    <em>NPJ Science of Learning.</em>
+                                    Preprint: bioRxiv 2023.12.11.571114; doi: https://doi.org/10.1101/2023.12.11.571114.
+
+                                    <li class="Pub-Description"> My millestone paper on sleep and decision-making.</li>
+                                    <li class="Pub-Description"> In this study, we used Targeted Memory Reactivation (TMR) during non-rapid 
+                                        eye-movement sleep (NREM) to reactivate social learning memories. Results showed an overnight evaluation
+                                        updating which was related to cue-elicited delta-theta power and overnight N2 spindle activities. 
+                                    </li>
+                            </p>
+                        </div>                            
+                        <div class="col-md-1"><a href="https://doi.org/10.1101/2023.12.11.571114" class="btn btn-pub-pre">Prepr.</a>
+                            <a href="https://doi.org/10.1101/2023.12.11.571114" class="btn btn-pub">Pub.</a>
+                            <a href="https://doi.org/10.1101/2023.12.11.571114" class="btn btn-pub-open">Open</a>
+                        </div>
+
                     </div>
+
+
+                    <div class="row filterDiv memory hku" >
+						<div class="row">
+							<div class="col-11">
+                                <p class="Pub">[8] Lin, X., <strong>Chen, D.</strong>, Liu, J.,
+                                    Yao, Z.,  Xie, H., Anderson, M.*, & Hu, X.* (2024). 
+                                    Observing the suppression of individual aversive memories from conscious awareness. <em>Cerebral Cortex.</em>
+                                    34(6). https://doi.org/10.1093/cercor/bhae080
+                                </p> 
+							</div>
+							<div class="col-1"><a href="" class="btn btn-pub">Link</a></div>
+						</div>
+					</div>
 
                     <div class="row filterDiv sleep memory hku" >
                         <div class="col-md-1"></div>
