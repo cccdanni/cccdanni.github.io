@@ -4,9 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>Research - Danni CHEN</title>
-    
-<link href="css/mystyle.css" rel="stylesheet" type="text/css">
 
+
+<link href="css/mystyles.css" rel="stylesheet" type="text/css">
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     
@@ -84,8 +84,8 @@
 ul.goggles-social-btns {
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin: 0em;
+  align-items: left;
+  margin: 0px auto;
   padding: 0em;
   overflow: hidden;
   list-style: none;
@@ -99,7 +99,7 @@ header.nav__gat {
   background-color: black;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 80%;
-  margin: 0 auto;
+  margin: 10px auto;
 }
 
 .nav__links {
@@ -121,6 +121,20 @@ header.nav__gat {
     background-color: black;
     color: white;
 }
+
+.news_item{
+  color: black;
+  font-size: 18px;
+  text-align: left;
+}
+
+.news_card{
+  text-align: left;
+  background-color: white;
+  border-width: 0;
+}
+
+
     
 </style>
         
@@ -129,18 +143,20 @@ header.nav__gat {
 <body>	
     
 
+<div class="container" style="z-index: 10; max-width: 1200px; position: relative; top:0px">
+
 <!-- Navigation-->
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light" style="z-index: 100; position: sticky; top: 0; font-size: 18px; margin:0; text-align: center;">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="z-index: 100; position: sticky; top: 0; font-size: 18px; margin:0; text-align: center;">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
-        <li class="nav-item active">
+        <li class="nav-item">
             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item active">
             <a class="nav-link" href="research.html">Research</a>
         </li>
         <li class="nav-item">
@@ -156,27 +172,27 @@ header.nav__gat {
 <header class="" style="background-color: white; height: auto"> 
     
     <div class="img-container" style="background-color: white; top: 0px">
-        
-        <img src="images/frontimage.png" class="img-fluid" alt="Responsive image" style="height: auto; max-height: 400px; width: auto; text-align: center; top: 0px" alt="..">
+
+        <img src="images/frontimage.png" class="img-fluid" alt="Responsive image" style="height: auto; max-height: 800px; width: auto; text-align: center; top: 0px" alt="..">
 
     </div>
     
 </header>
 
-
     
 <!-- Main Text-->
 
-<br>
     
 <div class="container" style="z-index: 10; max-width: 1200px; position: relative; top:0px">
 
-    <!--Card-->
-    <div class="row">
+    
+    <br>
 
-        <div class="col-md-1"></div>
+    <!--Research-->
 
-        <div class="col-md-10">
+    <div class="row" style="position: relative">
+
+        <div class="col-md-12">
 
             <paragraph>
 
@@ -211,39 +227,77 @@ header.nav__gat {
 
             <br>
 
-            <p style="font-size: 18px; text-align: left"><em>[Updated on April 2nd, 2024]</em></p>
-
-            <br>
-
-            <hr>
-            
             <br>
 
         </div>
 
-        <div class="col-md-1"></div>
-
     </div>
+
+        <br><br>
+
+       
+    </div>
+
+    <br>
+
+</div>
 
 </div>
 
 
+
+
+</div>
 
 
 <!--End-->
 
-<div class="container bg" style="max-width: 100%; position: relative; top:0px">
+    <div class="container bg-light" style="position: relative; top:0px">
+                
+        <div class="row" style="position:relative;">
         
-    <div class="row" style="position:relative; background-color: white">
-    
-        <p class = "center" style="font-size: 16px; text-align: center">
-            Copyright © 2023 | Danni Chen | All Rights Reserved
-		</p>
+                <div class="col-md-1"></div>
+
+                <div class="col-md-5">
+                    <br>
+                    <h4 style="text-align: left;"><b>Danni CHEN</b></h4>
+                    <p style="text-align: left; font-size: 20px;">Ph.D. Candidate<br>Social and Cognitive Neuroscience Lab<br> Department of Psychology<br> The University of Hong Kong</p>
+                    <br>
+                </div>
         
+                <div class="col-md-5">
+                    <br>
+                    <h4 style="text-align: left;"><b>Contact</b></h4>
+                    <p style="text-align: left; font-size: 20px;">
+                        <b>Email:</b> <a href = "mailto:dnchen@connect.hku.hk">dnchen@connect.hku.hk</a><br>
+                        <b>Twitter:</b> @DanniChen9707<br>
+                        <b>Address:</b> Room 712, 7/F, The Jockey Club Tower, Centennial Campus, The University of Hong Kong, Pokfulam, Hong Kong<br>
+                    </p>
+                    <p style="text-align: left; font-size: 20px;"></p>
+
+                </div>
+                    
+                <div class="col-md-1"></div>
+            
+        </div>
+
+
     </div>
 
+    <div class="container bg-dark" style="position: relative; top:0px">
+            
+        <div class="row" style="position:relative;">
+        
+            <p class = "center" style="font-size: 16px; text-align: center; color:white">
+                <br>
+                Copyright © 2024 | Danni Chen | All Rights Reserved
+                <br>
+            </p>
+            
+        </div>
 
-</div>
+
+    </div>
     
 
     
