@@ -144,6 +144,15 @@ margin-top: 20px;
 overflow: hidden;
 }
 
+.container3 {
+    width: 100%;
+    padding-right: 0rem;
+    padding-left: 0rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+    
+
 /* Style the buttons */
 .btn {
 border: none;
@@ -229,10 +238,17 @@ background-color: #555;
     color: black;
     font-size: 16px;
     text-align: left;
+    word-break: break-all;
+    word-wrap: break-word;  
 }
   
 .news_card{
 text-align: left;
 background-color: white;
 border-width: 0;
+}
+
+.news_img{
+    max-width: 50%;
+    height: auto;
 }

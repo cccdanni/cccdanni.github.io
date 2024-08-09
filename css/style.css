@@ -732,6 +732,7 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
@@ -4314,8 +4315,8 @@ input[type=button].btn-block {
 
 .navbar-toggler-icon {
   display: inline-block;
-  width: 1.5em;
-  height: 1.5em;
+  width: 1em;
+  height: 1em;
   vertical-align: middle;
   content: "";
   background: no-repeat center center;
