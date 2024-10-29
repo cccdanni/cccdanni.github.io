@@ -252,3 +252,8 @@ border-width: 0;
     max-width: 50%;
     height: auto;
 }
+
+.research_img{
+    max-width: 80%;
+    height: auto;
+}
