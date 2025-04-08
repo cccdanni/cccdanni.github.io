@@ -243,17 +243,45 @@ background-color: #555;
 }
   
 .news_card{
-text-align: left;
-background-color: white;
-border-width: 0;
+    text-align: left;
+    background-color: white;
+    border-width: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    overflow: hidden;
+    display: flex;
 }
+
 
 .news_img{
     max-width: 50%;
     height: auto;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 5px;
+    border-color: grey;
+    box-shadow: grey 0px 0px 10px;
+    padding: 2px;
+    object-fit: cover;
+    display: flex;
 }
 
 .research_img{
     max-width: 80%;
     height: auto;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .news_card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .card img {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
 }
